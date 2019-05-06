@@ -1,4 +1,5 @@
                                             # GHOST GHOUL AND GOBLIN
+                                            ![ghost](/images/front_page.png)
                                             
                                             
                                             
