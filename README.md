@@ -75,7 +75,7 @@ __Heat Map__
 The column rotting_flesh is not dropped because we cannot afford to miss any features.
 
 
-__Facet Grid __
+__Facet Grid__
 ![facetgrid](/images/facetgrid.png)
 
 *There are not many outlier except for rotting flesh.
