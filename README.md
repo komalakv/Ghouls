@@ -1,4 +1,4 @@
-# GHOST GHOUL AND GOBLIN
+# GHOULS, GOBLINS AND GHOSTS
 
 ![ghost](/images/front_page.png)
                                                                                      
