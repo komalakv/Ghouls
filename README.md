@@ -50,6 +50,14 @@ has_soul      |   percentage of soul in the creature
 color         |   dominant color of the creature: 'white','black','clear','blue','green','blood'
 type          |   target variable: 'Ghost', 'Goblin', and 'Ghoul'
 
+* There are no null values in the data set.
+
+
+
+### 4. DATA VISUALIZATION
+On applying pair plot for the categorical values looks this way:-
+
+![pairplot](/images/pairplot.png)
 
 
 
