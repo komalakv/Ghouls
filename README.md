@@ -88,18 +88,74 @@ __Model 1: Linear Discriminant Analysis (LDA)__
 
 Chosen Linear Discriminant Analysis (LDA) algorithm to evaluate the model. The LDA algorithm is best suited for data sets with more than 2 categorical values. The confusion matrix and classification metrics is give below
 
-       type |precision |   recall |  f1-score |  support
-      ------|----------|----------|-----------|----------
-      Ghost |     0.86 |     0.94 |   0.90    |    33
-      Ghoul |     0.71 |     0.89 |   0.79    |    27
-     Goblin |     0.78 |     0.55 |   0.64    |    33
-avg / total |     0.79 |     0.78 |   0.78    |    93
+precision | recall | f1-score | support
+-----------------------|----------|-----------|----------
+Ghost            0.86  |  0.94  | 0.90 | 33
+Ghoul            0.71  |  0.89  | 0.79 | 27
+Goblin           0.78  |  0.55  | 0.64 | 33
+avg / total      0.79  |  0.78  | 0.78 | 93
 
+
+
+__Model 2: Logistic Regression__
 
 Then Logistic Regression algorithm is application and report is -
 
+precision | recall | f1-score | support
+-----------------------|----------|-----------|----------
+Ghost            0.86  |  0.94  | 0.90 | 33
+Ghoul            0.71  |  0.89  | 0.79 | 27
+Goblin           0.78  |  0.55  | 0.64 | 33
+avg / total      0.79  |  0.78  | 0.78 | 93
+
+***Applying LDA and then performing Logistic Regression gives the same accuracy score of 79%.*** 
 
 
+
+__Model 3: K Nearest Neighbour__
+
+precision | recall | f1-score | support
+-----------------------|----------|-----------|----------
+Ghost       0.89     | 0.83    |  0.86 |       29
+Ghoul       0.76    |  0.86 |     0.81       | 22
+Goblin       0.70    |  0.67     | 0.68    |    24
+avg / total    0.79   |   0.79   |   0.79   |     75
+
+
+***The accuracy score is 78.66%***
+
+
+__Model 4: Support Vector Machine (SVM)__
+
+precision | recall | f1-score | support
+-----------------------|----------|-----------|----------
+Ghost       0.92 |     0.79 |     0.85  |      29
+Ghoul       0.83 |     0.68   |   0.75  |    22
+Goblin       0.59   |   0.79   |   0.68  |      24
+avg / total       0.79     | 0.76   |   0.77  |      75
+
+
+***The accuracy score is 76%***
+
+
+
+__Model 5: Decision Tree__
+
+precision | recall | f1-score | support
+-----------------------|----------|-----------|----------
+Ghost       0.89 |     0.86|      0.88|        29
+Ghoul       0.61  |    0.86 |     0.72 |       22
+Goblin       0.62   |   0.42  |    0.50     |   24
+avg / total       0.73  |    0.72 |     0.71    |    75
+
+
+***The accuracy score is 72%***
+
+
+
+### 6. CONCLUSION
+
+From this we can see that the best algorithm to classify whether it is a ghoul, goblin or ghost is **LDA** followed by **Logistic Regression** and **KNN**.
 
 
 
