@@ -88,8 +88,8 @@ __Model 1: Linear Discriminant Analysis (LDA)__
 
 Chosen Linear Discriminant Analysis (LDA) algorithm to evaluate the model. The LDA algorithm is best suited for data sets with more than 2 categorical values. The confusion matrix and classification metrics is give below
 
-            |precision |   recall |  f1-score |  support
-             ----------|----------|-----------|----------
+       type |precision |   recall |  f1-score |  support
+      ------|----------|----------|-----------|----------
       Ghost |     0.86 |     0.94 |   0.90    |    33
       Ghoul |     0.71 |     0.89 |   0.79    |    27
      Goblin |     0.78 |     0.55 |   0.64    |    33
