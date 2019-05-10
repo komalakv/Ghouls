@@ -50,14 +50,41 @@ has_soul      |   percentage of soul in the creature
 color         |   dominant color of the creature: 'white','black','clear','blue','green','blood'
 type          |   target variable: 'Ghost', 'Goblin', and 'Ghoul'
 
-* There are no null values in the data set.
+*There are no null values in the data set.*
 
 
 
 ### 4. DATA VISUALIZATION
+__Pair Plot__
+
 On applying pair plot for the categorical values looks this way:-
 
 ![pairplot](/images/pairplot.png)
+
+![pairplot1](/images/pairplot1.png)
+
+
+*Upon observing the above plot we can see that there is no features isolated. All the features are correlated with each other.*
+
+
+__Heat Map__
+![heatmap](/images/heatmap.png)
+
+*Observation:- The features bone_length, hair_length and has_soul have positive values and the rotting_flesh has negative values.*
+
+The column rotting_flesh is not dropped because we cannot afford to miss any features.
+
+
+__Facet Grid __
+![facetgrid](/images/facetgrid.png)
+
+*There are not many outlier except for rotting flesh.
+
+
+
+
+
+
 
 
 
