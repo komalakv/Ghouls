@@ -168,7 +168,7 @@ avg / total       0.67  |    0.61   |   0.62     |  112
 
 From this we can see that the best algorithm to classify whether it is a ghoul, goblin or ghost is **LDA** followed by **Logistic Regression** and **SVM**.
 
-
+### ![JUPYTER NOTEBOOK]
 
 
 
